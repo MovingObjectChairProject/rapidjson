@@ -169,7 +169,7 @@ install(FILES readme.md
 
 install(DIRECTORY include/rapidjson
     DESTINATION "${INCLUDE_INSTALL_DIR}"
-    COMPONENT dev)
+    COMPONENT include)
 
 install(DIRECTORY example/
     DESTINATION "${DOC_INSTALL_DIR}/examples"
